@@ -10,7 +10,7 @@ Over the last few tasks, we have established that working with these probabiliti
 
 In writing this we have introduced the symbols ![](https://render.githubusercontent.com/render/math?math=H_0) and ![](https://render.githubusercontent.com/render/math?math=H_1) for the null and alternative hypotheses respectively.  ![](https://render.githubusercontent.com/render/math?math=\mu_0), meanwhile, is the value of the expectation that we were given in the statement of the problem.  In these expressions, ![](https://render.githubusercontent.com/render/math?math=\mu) is the sample mean that has been computed in the usual way.  Now instead of using the sample mean as the test statistic, we are going to use:
 
-![](https://render.githubusercontent.com/render/math?math=T\frac{1}{\sigma\sqrt{n}}\sum_{i=1}^{n}(X_i-\mu_0))
+![](https://render.githubusercontent.com/render/math?math=T=\frac{1}{\sigma\sqrt{n}}\sum_{i=1}^{n}(X_i-\mu_0))
 
 where ![](https://render.githubusercontent.com/render/math?math=\sigma) is the square root of the variance for the random variable.  You should add code in the function `testStatistic` to make it compute and return this quantity.  Three variables are passed to this function:
 
