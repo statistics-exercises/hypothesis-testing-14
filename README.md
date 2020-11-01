@@ -33,6 +33,6 @@ __In addition to completing the function to calculate the `testStatistic` you mu
 
 The functions should then return a string that tells you whether the null hypothesis is rejected or not for a test at a 5% significance level.  For all three functions, the null hypothesis is that data is a set of samples from a normal distribution with expectation mu0 and standard deviation sigma. The alternative hypotheses are then:
 
-1. `twoTailTest` - that the expectation is not equal to mu0
-2. `meanLessTest` - that the expectation is less than mu0
-3. `meanMoreTest` - that the expectation is greater than mu0
+1. `twoTailTest` - that the expectation is not equal to ![](https://render.githubusercontent.com/render/math?math=mu_0)
+2. `meanLessTest` - that the expectation is less than ![](https://render.githubusercontent.com/render/math?math=mu_0)
+3. `meanMoreTest` - that the expectation is greater than ![](https://render.githubusercontent.com/render/math?math=mu_0)
